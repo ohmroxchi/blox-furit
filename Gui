@@ -1,0 +1,7 @@
+<nav>
+  <a href="index.html">หน้าแรก</a>
+  <a href="shop.html">สินค้า</a>
+  <a href="howto.html">วิธีซื้อ</a>
+  <a href="contact.html">ติดต่อ</a>
+  <a href="login.html">หลังร้าน</a>
+</nav>
