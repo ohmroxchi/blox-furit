@@ -1,0 +1,3 @@
+if (ohm === "admin" && password === "254480xi") {
+  window.location.href = "admin.html";
+}
