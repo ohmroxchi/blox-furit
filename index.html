@@ -1,0 +1,165 @@
+<!DOCTYPE html><html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ร้านขายไก่ตัน | Blox Fruits</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0b0b0b;
+      color: #fff;
+    }header {
+  background: linear-gradient(90deg, #000, #8b0000);
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid red;
+}
+header h1 {
+  margin: 0;
+  color: #ff3b3b;
+  font-size: clamp(22px, 4vw, 32px);
+}
+header p {
+  margin: 8px 0 0;
+  color: #ddd;
+  font-size: clamp(14px, 2.5vw, 16px);
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #ff4d4d;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #111;
+  border: 1px solid #400;
+  border-radius: 16px;
+  padding: 18px;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card h3 {
+  color: #ff6666;
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.card p {
+  color: #ccc;
+  font-size: 15px;
+}
+
+.price {
+  font-size: 20px;
+  color: #ff1a1a;
+  margin: 12px 0;
+  font-weight: bold;
+}
+
+.card button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(90deg, #b30000, #ff0000);
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.card button:hover {
+  opacity: 0.85;
+  transform: scale(1.03);
+}
+
+.note {
+  margin-top: 30px;
+  background: #160000;
+  border-left: 4px solid red;
+  padding: 16px;
+  border-radius: 12px;
+  color: #ffcccc;
+  font-size: 14px;
+}
+
+footer {
+  text-align: center;
+  padding: 16px;
+  background: #000;
+  border-top: 1px solid red;
+  margin-top: 40px;
+  color: #aaa;
+  font-size: 14px;
+}
+
+/* ปรับเฉพาะมือถือจอเล็ก */
+@media (max-width: 480px) {
+  .container {
+    padding: 15px;
+  }
+  .card {
+    padding: 15px;
+  }
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🐔 ร้านขายไก่ตัน Blox Fruits</h1>
+    <p>ขายไก่ตันเกม Roblox แมพ Blox Fruits • ปลอดภัย • ใช้งานได้ทั้งมือถือ & คอม</p>
+  </header>  <div class="container">
+    <h2>สินค้าในร้าน</h2>
+    <div class="products">
+      <div class="card">
+        <h3>ไก่ตัน 1 ตัว</h3>
+        <p>เหมาะสำหรับผู้เล่นใหม่ ทดลองใช้งาน</p>
+        <div class="price">50 บาท</div>
+        <button>สั่งซื้อ</button>
+      </div><div class="card">
+    <h3>ไก่ตัน 5 ตัว</h3>
+    <p>แพ็กยอดนิยม คุ้มค่า ฟาร์มสบาย</p>
+    <div class="price">230 บาท</div>
+    <button>สั่งซื้อ</button>
+  </div>
+
+  <div class="card">
+    <h3>ไก่ตัน 10 ตัว</h3>
+    <p>สายจริงจัง เร็ว แรง จบไว</p>
+    <div class="price">450 บาท</div>
+    <button>สั่งซื้อ</button>
+  </div>
+</div>
+
+<div class="note">
+  <strong>📌 หมายเหตุ</strong>
+  <ul>
+    <li>ติดต่อร้านก่อนโอนเงินทุกครั้ง</li>
+    <li>ใช้สำหรับ Roblox แมพ Blox Fruits เท่านั้น</li>
+    <li>ร้านขายทั่วไป ไม่เกี่ยวข้องกับผู้พัฒนาเกม</li>
+  </ul>
+</div>
+
+  </div>  <footer>
+    © 2026 ร้านขายไก่ตัน Blox Fruits | รองรับมือถือ & คอมพิวเตอร์
+  </footer>
+</body>
+</html>
